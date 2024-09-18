@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula04</title>
+</head>
+<body>
+    <form action="enviar.php" method="post">
+    <fieldset>
+    <legend>Escolha sua banda</legend>
+    <div><input type="radio" id="Body_Count" name="grupo">
+    <label for="body_count">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLrP7K3D1lX3N-eI3r9Ny-u6xLSq6iRqX2qg&s" alt="Body_Count" width="150" height="100">
+    </label></div>
+    <div><input type="radio" id="Faith_no_more" name="grupo">
+    <label for="Faith_no_more">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Faith_no_more_logo.png" alt="Faith_no_more" width="150" height="100">
+    </label></div>
+    <div><input type="radio" id="Megadeth" name="grupo">
+    <label for="Megadeth">
+        <img src="https://w7.pngwing.com/pngs/423/515/png-transparent-megadeth-logo-gold-artist-logos.png" alt="Megadeth" width="150" height="100">
+    </label></div>
+    <div><input type="radio" id="soundgarden" name="grupo">
+    <label for="soundgarden">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAq_NBfA7qnwgslmbgESR2cjxtv1wyzF8UQA&s" alt="soundgarden" width="150" height="100">
+    </label></div>
+    </fieldset>
+    
+    
+    <label for="conte">Escreva:</label>
+    <textarea id="conte" name="conte"
+              rows="8" cols="28">
+    Era uma vez...          
+    </textarea>
+   
+    
+    <label for="escolha">Escolha sua plataforma</label>
+    <input list="escolha_plataforma" id="escolha" name="escolha">
+    <datalist id="escolha_plataforma">
+        <option value="Xbox Series X">
+        <option value="Xbox Series S">
+        <option value="Playstation 5">
+        <option value="Switch">
+        <option value="Switch Lite">
+        <option value="PC">
+    </datalist>
+    
+    
+    <label for="Aufood">Escolha seu animalzinho</label>
+    <select name="Aufood" id="Aufood">
+        <option value="Cachorro">Cachorro</option>
+        <option value="Gato">Gato</option>
+        <option value="Papagaio">Papagaio</option>
+    </select>
+    
+    
+    <label for="time-selecao">Escolha seu time</label>
+    <select id="time-selecao">
+        <optgroup label="Rio de Janeiro">
+            <option>Flamengo</option>
+            <option>Fluminense</option>
+            <option>Vasco</option>
+            <option>Botafogo</option>
+        </optgroup>
+        <optgroup label="Sao Paulo">
+            <option>Palmeiras</option>
+            <option>Corinthians</option>
+            <option>Santos</option>
+            <option>Sao Paulo</option>
+        </optgroup>
+        </select>
+        
+        
+     <label for="marcar-reuniao"d>Marque sua reuniao</label>
+     <input type="datatime local" id="marcar-reuniao" name="marcar-reuniao"
+     min="2024-09-15T10:00" max="2024-09-15T13:00">
+
+
+     
+    <style>{
+              font-size: 12pt;
+              color:Aquamarine;  
+            }       
+        
+        </style>    
+</body>
+</html>
