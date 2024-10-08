@@ -1,0 +1,114 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#1c1c1c;
+    color:white;
+    text-align:center;
+    flex-direction:row;
+    justify-content:center;
+}
+
+header img{
+    width:185px;
+    height:185px;
+    border-radius:50%;
+    margin:40px
+}
+
+a{
+    text-decoration:none;
+    color: aquamarine;
+}
+
+.login{
+    margin-top:70px;
+}
+
+.cadastro{
+    margin-top:70px;
+}
+
+.name input{
+    border-radius:15px;
+    border:none;
+    width:300px;
+    height:50px;
+    background-color:#363636;
+    color:white;
+    margin-left:12px;
+    margin-top:12px;
+
+}
+
+.email input{
+    border-radius:15px;
+    border:none;
+    width:300px;
+    height:50px;
+    background-color:#363636;
+    color:white;
+    margin-left:12px;
+    margin-top:12px
+
+}
+
+.senha input{
+    border-radius:15px;
+    border:none;
+    width:300px;
+    height:50px;
+    background-color:#363636;
+    color:white;
+    margin-left:12px;
+    margin-top:12px;
+}
+
+.csenha input{
+    border-radius:15px;
+    border:none;
+    width:300px;
+    height:50px;
+    background-color:#363636;
+    color:white;
+    margin-left:12px;
+    margin-top:12px;
+}
+
+.entrar input{
+    cursor:pointer;
+    color:white;
+    border:none;
+    background-color:#6A5ACD;
+    border-radius:15px;
+    width:300px;
+    height:40px
+}
+input::placeholder{
+    color:#A9A9A9;
+}
+input:focus{
+    outline:none;
+}
+
+footer img{
+    border:none;
+    width:50px;
+    height:50px;
+    margin:30px;
+}
+
+footer a{
+    margin:5px;
+}
+
+footer p{
+    align-items:center;
+    color:white;
+    margin-top:none;
+
+}
+
+input:hover{
+    background-color:#6A5ACD
+}
+
+
