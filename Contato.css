@@ -1,0 +1,70 @@
+*{
+    text-decoration:none;
+}
+
+.container{
+    display:flex;
+    justify-content:space-evenly;
+    padding:150px;
+    text-decoration:none;
+}
+
+body{
+    text-align:center;
+    justify-content:center;
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    background-image: linear-gradient(to right, #ffdb9d, #1E90FF);
+   
+    
+}
+
+h1{
+    color: Orange;
+    font-size: 130px;
+    margin:10px;
+    font-family:Arial, sans-serif;
+
+}
+
+img{
+    height:260px;
+    width:260px;
+    flex-direction:row;
+    border-radius:10%;
+    
+}
+
+p{
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    color:black;
+
+}
+
+#insta p{
+    color:#FF8C00
+}
+
+#tel p{
+    color:#FF8C00
+}
+
+#zap p{
+    color:	#191970
+}
+
+#email p{
+    color:	#191970
+}
+
+
+
+
+
+
+
+
+
+
+

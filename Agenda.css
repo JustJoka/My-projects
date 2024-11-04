@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient(to right, #1E90FF, #FF8C00);
+}
+
+h1{
+    text-align:center;
+    font-size:130px;
+    margin:30px;
+    color:orange;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+}
+
+#horarios {
+    padding: 0;
+    margin: 0;
+    text-align:center;
+}
+
+button {
+    background-color: orange;
+    color: #fff;
+    border: none;
+    padding: 10px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius:5px;
+}
+
+#horarios button:hover {
+    background-color: #1E90FF;
+}
+
+#mensagem {
+    font-size: 24px;
+    color: aquamarine;
+    margin-top: 20px;
+    text-align:center;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+}
